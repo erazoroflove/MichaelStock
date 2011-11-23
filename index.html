@@ -2,12 +2,7 @@
 
  <head>
 
-  <title>Stock Ticker using Ajax</title>
-
-  
-
-  <!-- Paul.Hughes Defining javascript -->
-
+  <title>Michael Stock</title>
 
 
   <script type="text/javascript" src="jquery-1.6.4.js"></script>
@@ -16,7 +11,7 @@
 
   
 
-  <!-- Paul.Hughes Directing to php file -->
+  <!-- php file -->
 
         var stockURL = "stock-ticker.php?tickers=";
 
@@ -64,9 +59,9 @@
 
      + String(lineOfData[0]).replace(/\"/g, '')
 
-     + " - Value:" + lineOfData[1]
+     + " / The Value:" + lineOfData[1]
 
-     + " - Change:" + lineOfData[2]
+     + " / It's Change:" + lineOfData[2]
 
      + "");
 
